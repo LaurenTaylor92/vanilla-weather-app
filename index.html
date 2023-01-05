@@ -13,28 +13,32 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <div class="row">
-          <div class="col-4">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
-              alt="rain"
-            />
-            <span class="units"> 12°C | F° </span>
-          </div>
-          <div class="col-4" class="phw">
-            <ul>
-              <li>Precipitation: 93%</li>
-              <li>Humidity: 77%</li>
-              <li>Wind: 8 km/h</li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <h1>Vienna</h1>
-            <ul class="city-day-forecast">
-              <li>Wednesday 17:00</li>
-              <li>Clear</li>
-            </ul>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
+                alt="rain"
+              />
+              <div class="units">
+                <strong> 12</strong>°C | <a href="#">F°</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <ul class="forecast">
+                <li>Precipitation: 93%</li>
+                <li>Humidity: 77%</li>
+                <li>Wind: 8 km/h</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <h1>Vienna</h1>
+              <ul class="city-day">
+                <li>Wednesday 17:00</li>
+                <li>Clear</li>
+              </ul>
+            </div>
           </div>
         </div>
         <small>
