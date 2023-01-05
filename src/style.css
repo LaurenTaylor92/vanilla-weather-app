@@ -20,6 +20,7 @@ li {
   color: #70757a;
   font-size: 12px;
   line-height: 16px;
+  text-transform: capitalize;
 }
 img {
   margin: 0px 0px 0px 6px;
