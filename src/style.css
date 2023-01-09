@@ -79,3 +79,12 @@ div.col-4 {
 .forecast {
   margin-top: 5px;
 }
+
+.units .active {
+  color: #202124;
+  cursor: default;
+}
+
+.units .active.hover {
+  text-decoration: none;
+}
