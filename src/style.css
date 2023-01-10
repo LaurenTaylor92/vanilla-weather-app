@@ -90,3 +90,24 @@ div.col-4 {
 .units .active.hover {
   text-decoration: none;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: #70757a;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  color: #70757a;
+}
+
+.weather-forecast-icon {
+  margin-top: 10px;
+}
