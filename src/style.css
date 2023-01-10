@@ -76,8 +76,9 @@ div.col-4 {
   padding-left: 6px;
   vertical-align: top;
 }
-.forecast {
+.details {
   margin-top: 5px;
+  padding-left: 20px;
 }
 
 .units .active {
