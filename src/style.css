@@ -27,8 +27,8 @@ li.first-letter {
 }
 
 img {
-  margin: 0px 0px 0px 6px;
-  padding: 0;
+  margin: -20px 0px 0px 6px;
+  padding: 0px;
 }
 strong {
   font-size: 48px;
@@ -58,6 +58,7 @@ small {
 .city-day {
   text-align: right;
 }
+
 .row {
   width: 100%;
 }
